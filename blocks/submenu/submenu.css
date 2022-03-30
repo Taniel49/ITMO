@@ -1,0 +1,7 @@
+.submenu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: height 500ms ease;
+}
