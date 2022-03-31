@@ -1,0 +1,19 @@
+.cogn-technology__title {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.375;
+  letter-spacing: 0.1px;
+  color: #fff;
+  margin: 0 0 16px;
+  max-width: 256px;
+}
+
+@media screen and (min-width: 768px) {
+  .cogn-technology__title {
+    font-size: 54px;
+    line-height: 68px;
+    margin-bottom: 32px;
+    max-width: 445px;
+  }
+}

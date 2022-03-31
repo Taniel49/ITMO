@@ -10,16 +10,13 @@ const submenu = menu.querySelector('.submenu');
 
 // Функция плавного выпадения/скрытия меню
 function toggleMenu(menu) {
-  if (menu.style.height === "0px") {
-    menu.style.height = `${ menu.scrollHeight }px`;
-  } else {
-    menu.style.height = "0";
-  }
-}
+  const classOpenName = menu.id + '_open';
 
-// Функция удаления значения высоты
-function deleteHeight(menu) {
-  menu.style.height = "";
+  if (!menu.classList.contains(classOpenName)) {
+    menu.classList.add(classOpenName);
+  } else {
+    menu.classList.remove(classOpenName);
+  }
 }
 
 // Функция выпадения/скрытия меню навигации
@@ -38,7 +35,7 @@ function toggleSubmenu() {
   linkOpener.classList.toggle('menu__link_open');
 
   linksList.forEach((link) => {
-    link.classList.toggle('menu__link_type_inactive');
+    link.classList.toggle('menu__link_inactive');
   });
 
   toggleMenu(submenu);
@@ -47,7 +44,3 @@ function toggleSubmenu() {
 burger.addEventListener('click', toggleNavMenu);
 
 linkOpener.addEventListener("click", toggleSubmenu);
-
-menu.addEventListener("transitionend", () => {
-  deleteHeight(menu);
-});

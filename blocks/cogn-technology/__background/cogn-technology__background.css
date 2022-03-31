@@ -1,0 +1,16 @@
+.cogn-technology__background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: scale(-1, 1);
+}
+
+@media screen and (min-width: 1440px) {
+  .cogn-technology__background {
+    transform: none;
+  }
+}

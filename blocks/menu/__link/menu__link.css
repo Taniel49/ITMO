@@ -13,3 +13,23 @@
 .menu__link:hover {
   background-color: #001337;
 }
+
+@media screen and (min-width: 768px) {
+  .menu__link {
+    padding: 12px 41px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .menu__link {
+    padding: 12px 0;
+    min-width: 100px;
+    justify-content: center;
+    transition: all .2s ease-in;
+  }
+
+  .menu__link:hover {
+    background-color: transparent;
+    box-shadow: 0px 2px 0px #009FAC;
+  }
+}

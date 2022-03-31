@@ -1,0 +1,11 @@
+.cogn-technology__container {
+  max-width: 1110px;
+  width: 100%;
+}
+
+@media screen and (min-width: 1440px) {
+  .cogn-technology__container {
+    display: flex;
+    justify-content: end;
+  }
+}

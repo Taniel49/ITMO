@@ -1,8 +1,0 @@
-@keyframes openMenu {
-  from {
-    max-height: 0;
-  }
-  to {
-    max-height: 600px;
-  }
-}

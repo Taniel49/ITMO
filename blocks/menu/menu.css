@@ -1,8 +1,21 @@
 .menu {
   position: absolute;
-  top: 48px;
+  top: 45px;
   left: 0;
   width: 100%;
-  overflow: hidden;
-  transition: height 500ms ease;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    top: 61px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .menu {
+    position: static;
+    width: auto;
+    display: block;
+  }
 }

@@ -11,51 +11,70 @@
     <div class="page">
 
       <header class="header">
-        <div class="burger">
-          <span class="burger__line"></span>
-          <span class="burger__line"></span>
-          <span class="burger__line"></span>
+        <div class="header__container">
+
+          <div class="burger">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+          </div>
+
+          <a href="#" class="logo logo_location_header">
+            <img class="logo__img" src="./images/logo.png" alt="Логотип">
+          </a>
+
+          <nav id="menu" class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link menu__link_active">О нас</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Лаборатория</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Проекты</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link menu__link_type_opener">Образование</a>
+                <ul id="submenu" class="submenu">
+                  <li class="submenu__item">
+                    <a href="#" class="submenu__link">Магистратура</a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="#" class="submenu__link">Аспирантура</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Публикации</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Команда</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Связаться</a>
+              </li>
+            </ul>
+          </nav>
+
         </div>
-        <a href="#" class="logo logo_name_header">
-          <img class="logo__img" src="./images/logo.png" alt="Логотип">
-        </a>
-        <nav class="menu" style="height: 0px">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a href="#" class="menu__link menu__link_active">О нас</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Лаборатория</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Проекты</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link menu__link_type_opener">Образование</a>
-              <ul class="submenu" style="height: 0px">
-                <li class="submenu__item">
-                  <a href="#" class="submenu__link">Магистратура</a>
-                </li>
-                <li class="submenu__item">
-                  <a href="#" class="submenu__link">Аспирантура</a>
-                </li>
-              </ul>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Публикации</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Команда</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Связаться</a>
-            </li>
-          </ul>
-        </nav>
       </header>
 
       <main class="content">
-        <section></section>
+
+        <section class="cogn-technology">
+            <img class="cogn-technology__background" alt="Фон заголовка страницы" src="./images/cogn-technology-bg.jpg">
+            <div class="cogn-technology__container">
+              <div>
+                <h1 class="cogn-technology__title">
+                  <span class="cogn-technology__title-bold">Когнитивные технологии,</span> машинное обучение
+                </h1>
+                <p class="cogn-technology__text">Системы прикладного искусственного интеллекта</p>
+                <a href="#" class="cogn-technology__button">Наши проекты</a>
+              </div>
+            </div>
+        </section>
+
       </main>
 
       <footer class="footer"></footer>
