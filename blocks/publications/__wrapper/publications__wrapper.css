@@ -1,0 +1,16 @@
+.publications__wrapper {
+  max-width: 288px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .publications__wrapper {
+    max-width: 690px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .publications__wrapper {
+    max-width: 1104px;
+  }
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ИТМО Когнитивные технологии</title>
+    <link rel="stylesheet" href="./vendor/normalize.css"/>
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body>
@@ -77,7 +78,11 @@
                 Системы прикладного искусственного интеллекта
               </p>
               <a href="#" class="cogn-technology__button">Наши проекты</a>
-            </div>
+        </section>
+
+        <section class="publications">
+          <div class="publications__wrapper">
+            <h2 class="publications__title">ПУБЛИКАЦИИ</h2>
           </div>
         </section>
       </main>
@@ -89,6 +94,89 @@
 
     <template></template>
 
+
+    <template id="publication-card">
+      <div class="publication-card">
+        <div class="publication-card__wrapper">
+          <div class="publication-card__img-wrapper">
+            <img
+              class="publication-card__img"
+              src="./images/Publication/publication_Topic-driven Ensemble for Online Advertising Generation.png"
+              alt="foto"
+            >
+          </div>
+          <div class="publication-card__content">
+            <h3 class="publication-card__header"></h3>
+            <p class="publication-card__authors"></p>
+            <p class="publication-card__text"></p>
+          </div>
+          <div class="publication-card__footer">
+            <a class="publication-card__link" href="#">
+              <p class="publication-card__footer-text">Читать полностью</p>
+              <img
+                class="publication-card__icon-arrow"
+                src="./images/icons/arrow.svg"
+                alt="Стрелка"
+              >
+            </a>
+            <img
+              class="publication-card__icon-social"
+              src="./images/icons/social-icon.svg"
+              alt="Социальные сети"
+            >
+          </div>
+        </div>
+        <ul class="publication-card__footer-social-options">
+          <li class="publication-card__footer-social-item">
+            <a class="publication-card__link" href="#">
+              <img
+                class="publication-card__social-icon"
+                src="./images/icons/vk-icon.svg"
+                alt="Иконка ВК"
+              >
+            </a>
+          </li>
+          <li class="publication-card__footer-social-item">
+            <a class="publication-card__link" href="#">
+              <img
+                class="publication-card__social-icon"
+                src="./images/icons/fb-icon.svg"
+                alt="Иконка Фейсбука"
+              >
+            </a>
+          </li>
+          <li class="publication-card__footer-social-item">
+            <a class="publication-card__link" href="#">
+              <img
+                class="publication-card__social-icon"
+                src="./images/icons/telegram-icon.svg"
+                alt="Иконка Телеграма"
+              >
+            </a>
+          </li>
+          <li class="publication-card__footer-social-item">
+            <a class="publication-card__link" href="#">
+              <img
+                class="publication-card__social-icon"
+                src="./images/icons/inst-icon.svg"
+                alt="Иконка Инстаграмма"
+              >
+            </a>
+          </li>
+          <li class="publication-card__footer-social-item">
+            <a class="publication-card__link" href="#">
+              <img
+                class="publication-card__social-icon"
+                src="./images/icons/you-tube-icon.svg"
+                alt="Иконка Ютуба"
+              >
+            </a>
+          </li>
+        </ul>
+      </div>
+    </template>
+
     <script src="./scripts/menu.js"></script>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
