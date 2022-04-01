@@ -1,3 +1,9 @@
 .menu__link_inactive:not(.menu__link_open) {
   opacity: .5;
 }
+
+.menu__link_inactive[disabled]:not(.menu__link_open):hover {
+  cursor: default;
+  box-shadow: none;
+  background-color: transparent;
+}

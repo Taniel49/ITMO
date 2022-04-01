@@ -3,7 +3,8 @@
   top: 45px;
   left: 0;
   width: 100%;
-  display: none;
+  overflow: hidden;
+  transition: height .2s ease-in;
 }
 
 @media screen and (min-width: 768px) {
@@ -16,6 +17,6 @@
   .menu {
     position: static;
     width: auto;
-    display: block;
+    height: auto !important;
   }
 }

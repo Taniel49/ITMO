@@ -15,7 +15,6 @@
 @import url(../blocks/logo/__img/logo__img.css);
 
 @import url(../blocks/menu/menu.css);
-@import url(../blocks/menu/_open/menu_open.css);
 @import url(../blocks/menu/__list/menu__list.css);
 @import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/menu/__link/menu__link.css);
@@ -23,7 +22,6 @@
 @import url(../blocks/menu/__link/_open/menu__link_open.css);
 
 @import url(../blocks/submenu/submenu.css);
-@import url(../blocks/submenu/_open/submenu_open.css);
 @import url(../blocks/submenu/__link/submenu__link.css);
 
 @import url(../blocks/cogn-technology/cogn-technology.css);
