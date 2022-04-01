@@ -1,0 +1,8 @@
+.publication-card__footer-social-item {
+  margin: 0;
+  padding-left: 0;
+}
+
+.publication-card__footer-social-item:not(:last-child) {
+  margin-right: 10px;
+}

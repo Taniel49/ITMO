@@ -1,0 +1,9 @@
+.publication-card__link {
+  text-decoration: none;
+  display: flex;
+  transition: 0.2s all ease-in;
+}
+
+.publication-card__link:hover {
+  opacity: 0.5;
+}

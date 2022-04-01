@@ -1,0 +1,26 @@
+.publication-card__authors {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 145%;
+  color: #009FAC;
+  margin: 0 0 10px 0;
+  font-style: italic;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .publication-card__authors {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 12px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .publication-card__authors {
+    margin-bottom: 20px;
+  }
+}
