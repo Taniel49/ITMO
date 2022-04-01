@@ -9,7 +9,7 @@
 
 @import url(../blocks/burger/burger.css);
 @import url(../blocks/burger/__line/burger__line.css);
-@import url(../blocks/burger/__line/_open/burger__line_open.css);
+@import url(../blocks/burger/__line/_opened/burger__line_opened.css);
 
 @import url(../blocks/logo/_location_header/logo_location_header.css);
 @import url(../blocks/logo/__img/logo__img.css);
@@ -19,7 +19,7 @@
 @import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__link/_inactive/menu__link_inactive.css);
-@import url(../blocks/menu/__link/_open/menu__link_open.css);
+@import url(../blocks/menu/__link/_opened/menu__link_opened.css);
 
 @import url(../blocks/submenu/submenu.css);
 @import url(../blocks/submenu/__link/submenu__link.css);

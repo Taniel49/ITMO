@@ -21,19 +21,19 @@ function resetHeightMenu(menu) {
 
 // Фукнкция открытия меню
 function openMenu(menu) {
-  menu.classList.add(`${menu.id}_open`);
+  menu.classList.add(`${menu.id}_opened`);
   menu.style.height = `${menu.scrollHeight}px`;
 }
 
 // Фукнкция закрытия меню
 function closeMenu(menu) {
-  menu.classList.remove(`${menu.id}_open`);
+  menu.classList.remove(`${menu.id}_opened`);
   menu.style.height = "0px";
 }
 
 // Функция открытия/закрытия меню
 function toggleMenu(menu) {
-  if (!menu.classList.contains(`${menu.id}_open`)) {
+  if (!menu.classList.contains(`${menu.id}_opened`)) {
     openMenu(menu);
   } else {
     closeMenu(menu);
@@ -42,7 +42,7 @@ function toggleMenu(menu) {
 
 // Функция изменения высоты меню
 function changeHeightMenu() {
-  if (submenu.classList.contains("submenu_open")) {
+  if (submenu.classList.contains("submenu_opened")) {
     menu.style.height = heightMenu + "px";
   } else {
     menu.style.height = heightMenuWithoutSubmenu + "px";
@@ -51,10 +51,10 @@ function changeHeightMenu() {
 
 // Функция открытия/закрытия меню навигации
 function toggleNavMenu() {
-  burger.classList.toggle("burger_open");
+  burger.classList.toggle("burger_opened");
 
   burgerLinesList.forEach((line) => {
-    line.classList.toggle("burger__line_open");
+    line.classList.toggle("burger__line_opened");
   });
 
   toggleMenu(menu);
@@ -62,7 +62,7 @@ function toggleNavMenu() {
 
 // Функция открытия/закрытия подменю навигации
 function toggleSubmenu() {
-  linkOpener.classList.toggle("menu__link_open");
+  linkOpener.classList.toggle("menu__link_opened");
 
   linksList.forEach((link) => {
     link.classList.toggle("menu__link_inactive");
@@ -76,15 +76,15 @@ function toggleSubmenu() {
 
 // // Функция открытия/закрытия меню по клику вне элемента
 function closeMenus() {
-  burger.classList.remove("burger_open");
+  burger.classList.remove("burger_opened");
 
   burgerLinesList.forEach((line) => {
-    line.classList.remove("burger__line_open");
+    line.classList.remove("burger__line_opened");
   });
 
   closeMenu(submenu);
 
-  linkOpener.classList.remove("menu__link_open");
+  linkOpener.classList.remove("menu__link_opened");
 
   linksList.forEach((link) => {
     link.classList.remove("menu__link_inactive");

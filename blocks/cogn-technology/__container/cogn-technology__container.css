@@ -3,7 +3,7 @@
   width: 100%;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .cogn-technology__container {
     display: flex;
     justify-content: end;
