@@ -1,0 +1,18 @@
+.burger {
+  width: 20px;
+  cursor: pointer;
+  position: absolute;
+  left: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .burger {
+    left: 41px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .burger {
+    display: none;
+  }
+}

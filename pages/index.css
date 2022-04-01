@@ -1,3 +1,33 @@
 @import url(../vendor/normalize.css);
 
 @import url(../vendor/font.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+
+@import url(../blocks/burger/burger.css);
+@import url(../blocks/burger/__line/burger__line.css);
+@import url(../blocks/burger/__line/_opened/burger__line_opened.css);
+
+@import url(../blocks/logo/_location_header/logo_location_header.css);
+@import url(../blocks/logo/__img/logo__img.css);
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__list/menu__list.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/menu/__link/_inactive/menu__link_inactive.css);
+@import url(../blocks/menu/__link/_opened/menu__link_opened.css);
+
+@import url(../blocks/submenu/submenu.css);
+@import url(../blocks/submenu/__link/submenu__link.css);
+
+@import url(../blocks/cogn-technology/cogn-technology.css);
+@import url(../blocks/cogn-technology/__background/cogn-technology__background.css);
+@import url(../blocks/cogn-technology/__container/cogn-technology__container.css);
+@import url(../blocks/cogn-technology/__title/cogn-technology__title.css);
+@import url(../blocks/cogn-technology/__title-bold/cogn-technology__title-bold.css);
+@import url(../blocks/cogn-technology/__text/cogn-technology__text.css);
+@import url(../blocks/cogn-technology/__button/cogn-technology__button.css);

@@ -1,0 +1,10 @@
+.burger__line {
+  display: block;
+  background-color: #fff;
+  border-radius: 2px;
+  height: 2px;
+}
+
+.burger__line:nth-child(2) {
+  margin: 5px 0;
+}
