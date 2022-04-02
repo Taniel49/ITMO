@@ -1,0 +1,28 @@
+.education__title {
+    align-self: center;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding: 40px 0 20px;
+    margin: 0;
+}
+
+
+@media screen and (min-width: 700px) {
+    .education__title {
+        font-size: 24px;
+        line-height: 33px;
+        padding: 60px 0 30px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .education__title {
+        font-size: 36px;
+        line-height: 68px;
+        padding-top: 80px;
+    }
+}
+

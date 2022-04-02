@@ -1,0 +1,26 @@
+.education__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: calc(100% - 16px*2);
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 600px) {
+    .education__container {
+        max-width: calc(100% - 39px*2);
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .education__container {
+        max-width: calc(100% - 80px*2);
+    }
+}
+
+
+@media screen and (min-width: 1300px) {
+    .education__container {
+        max-width: 1170px;
+    }
+}

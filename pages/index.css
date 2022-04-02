@@ -31,3 +31,20 @@
 @import url(../blocks/cogn-technology/__title-bold/cogn-technology__title-bold.css);
 @import url(../blocks/cogn-technology/__text/cogn-technology__text.css);
 @import url(../blocks/cogn-technology/__button/cogn-technology__button.css);
+
+@import url(../styles/normalize.css);
+@import url(../blocks/education/education.css);
+@import url(../blocks/education/__container/education__container.css);
+@import url(../blocks/education/__title/education__title.css);
+@import url(../blocks/education/__text/education__text.css);
+@import url(../blocks/education/__switch/education__switch.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/education/__card_hidden/education__card_hidden.css);
+@import url(../blocks/education/__switch-button/_active/education__switch-button_active.css);
+@import url(../blocks/education/__switch-button/education__switch-button.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__info/card__info.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__list/card__list.css);
+@import url(../blocks/card/__link/card__link.css);
+@import url(../blocks/card/__span/card__span.css);
