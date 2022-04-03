@@ -31,3 +31,28 @@
 @import url(../blocks/cogn-technology/__title-bold/cogn-technology__title-bold.css);
 @import url(../blocks/cogn-technology/__text/cogn-technology__text.css);
 @import url(../blocks/cogn-technology/__button/cogn-technology__button.css);
+
+/* publication-card */
+@import url(../blocks/publication-card/__authors/publication-card__authors.css);
+@import url(../blocks/publication-card/__content/publication-card__content.css);
+@import url(../blocks/publication-card/__content/_up/publication-card__content_up.css);
+@import url(../blocks/publication-card/__footer-social-item/publication-card__footer-social-item.css);
+@import url(../blocks/publication-card/__footer-social-options/publication-card__footer-social-options.css);
+@import url(../blocks/publication-card/__footer-social-options/_visible/publication-card__footer-social-options_visible.css);
+@import url(../blocks/publication-card/__footer-text/publication-card__footer-text.css);
+@import url(../blocks/publication-card/__footer/publication-card__footer.css);
+@import url(../blocks/publication-card/__header/publication-card__header.css);
+@import url(../blocks/publication-card/__icon-arrow/publication-card__icon-arrow.css);
+@import url(../blocks/publication-card/__icon-social/publication-card__icon-social.css);
+@import url(../blocks/publication-card/__img-wrapper/publication-card__img-wrapper.css);
+@import url(../blocks/publication-card/__img/publication-card__img.css);
+@import url(../blocks/publication-card/__link/publication-card__link.css);
+@import url(../blocks/publication-card/__social-icon/publication-card__social-icon.css);
+@import url(../blocks/publication-card/__text/publication-card__text.css);
+@import url(../blocks/publication-card/__wrapper/publication-card__wrapper.css);
+@import url(../blocks/publication-card/publication-card.css);
+
+/* publications */
+@import url(../blocks/publications/__title/publications__title.css);
+@import url(../blocks/publications/__wrapper/publications__wrapper.css);
+@import url(../blocks/publications/publications.css);
