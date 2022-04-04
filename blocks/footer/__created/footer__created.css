@@ -1,0 +1,26 @@
+.footer__created {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #fff;
+  opacity: 0.5;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__created {
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    bottom: 58px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__created {
+    bottom: 0;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
