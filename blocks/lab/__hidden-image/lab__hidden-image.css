@@ -1,0 +1,12 @@
+.lab__hidden-image {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+    .lab__hidden-image {
+        display: block;
+        grid-area: Ih;
+        border-radius: 7px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,28 @@
+.lab__cards {
+    display: grid;
+    row-gap: 8px;
+    column-gap: 2.5%;
+    grid-template-columns: repeat(2, 140px);
+    justify-content: center;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .lab__cards {
+        grid-area: C;
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .lab__cards {
+        grid-area: C;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 12px;
+        margin-top: 68px;
+    }
+}

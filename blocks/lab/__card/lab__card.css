@@ -1,0 +1,76 @@
+.lab__card {
+    width: 100%;
+    height: 224px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5.9px;
+    position: relative;
+    color: #001337;
+    transition: background-color 1s, color 1s;
+}
+
+.lab__card:hover {
+    background-color: #009FAC;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.lab__card:hover .lab__card-button {
+    color: #009FAC;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .lab__card {
+        margin-top: -10px;
+        width: 150px;
+        height: 242px;
+        box-shadow: 0px 2.35349px 11.7674px rgba(1, 54, 157, 0.15);
+    }
+
+    .lab__card:hover {
+        transform: translate(0, -10px);
+        cursor: pointer;
+    }
+
+    .lab__card::after {
+        content: "";
+        background-position: center;
+        background-size: cover;
+        background-image: url(../../../images/Lab/Project.png);
+        opacity: 0.4;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: 2;        
+    }
+    
+}
+
+@media screen and (min-width: 1201px) {
+    .lab__card {
+        margin-right: 18px;
+        box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+        border-radius: 10px;
+        width: 255px;
+        height: 430px;
+        
+    }
+
+    .lab__card:hover {
+        transform: translate(0, -20px);
+    }
+
+    .lab__card:last-child {
+        margin-right: 0;
+    }
+    .lab__card:hover .lab__card-button {
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        background-color: #009FAC;
+    }
+}

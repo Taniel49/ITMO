@@ -1,28 +1,130 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ИТМО Когнитивные технологии</title>
-    <link rel="stylesheet" href="./pages/index.css" />
-  </head>
-  <body>
 
-    <div class="page">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ИТМО Когнитивные технологии</title>
+  <link rel="stylesheet" href="./pages/index.css" />
+</head>
 
-      <header class="header"></header>
+<body>
+  <div class="page">
+    <header class="header"></header>
 
-      <main class="content">
-        <section></section>
-      </main>
+    <main class="content">
+      <section class="lab">
+        <h2 class="lab__title">INDUSTRIAL AI RESEARCH LAB</h2>
 
-      <footer class="footer"></footer>
+        <img class="lab__hidden-image" src="./images/Lab/image 38.jpg" alt="Человек в наушниках за ноутбуком" />
+        <img class="lab__image" src="./images/Lab/image 35.jpg" alt="Люди работают за компьютером" />
 
-      <div class="popup"></div>
+        <div>
+          <p class="lab__paragraph">
+            Центр национальной технологической инициативы (НТИ), получивший
+            государственную поддержку по направлению «Технологии машинного
+            обучения и когнитивные технологии».
+          </p>
+          <div>
+            <img class="lab__molecule" src="./images/Lab/molecula.svg" />
+            <p class="lab__paragraph">
+              Мы изучаем проблемы и выявляем, когда мы работаем вместе с
+              нашими клиентами, новые решения находят, не задумываясь. Работая
+              таким образом и проявляя гибкость, мы можем поддерживать новый
+              подход для удовлетворения потребностей наших клиентов.
+            </p>
+          </div>
+        </div>
+        <div class="lab__cards">
+          <div class="lab__card lab__card_type_project">
+            <h3 class="lab__card-title">Анализ&nbsp;социальных данных</h3>
+            <div class="lab__card-circle">
+              <img class="lab__card-img" src="./images/Lab/Card1.svg" alt="Карандаш и линейка" />
+            </div>
+            <p class="lab__card-text">
+              Направление включает в себя исследования и разработки технологий
+              МО и КТ
+            </p>
+            <div class="lab__card-button">Подробнее</div>
+          </div>
+          <div class="lab__card lab__card_type_machine">
+            <h3 class="lab__card-title">Инфраструктура больших данных</h3>
+            <div class="lab__card-circle">
+              <img class="lab__card-img" src="./images/Lab/Card2.svg" alt="Структура данных" />
+            </div>
+            <p class="lab__card-text">
+              Направление включает в себя исследования и разработки технологий
+              МО и КТ
+            </p>
+            <div class="lab__card-button">Подробнее</div>
+          </div>
+          <div class="lab__card lab__card_type_data">
+            <h3 class="lab__card-title">Облачные вычисления</h3>
+            <div class="lab__card-circle">
+              <img class="lab__card-img" src="./images/Lab/Card3.svg" alt="Микрочип" />
+            </div>
+            <p class="lab__card-text">
+              Направление включает в себя исследования и разработки технологий
+              МО и КТ
+            </p>
+            <div class="lab__card-button">Подробнее</div>
+          </div>
+          <div class="lab__card lab__card_type_robot">
+            <h3 class="lab__card-title">QA<br />системы</h3>
+            <div class="lab__card-circle">
+              <img class="lab__card-img" src="./images/Lab/Card4.svg" alt="Робот" />
+            </div>
+            <p class="lab__card-text">
+              Направление включает в себя исследования и разработки технологий
+              МО и КТ
+            </p>
+            <div class="lab__card-button">Подробнее</div>
+          </div>
+        </div>
+      </section>
+    </main>
 
+    <footer class="footer"></footer>
+
+    <div class="popup popup__lab popup_transition">
+      <div class="popup__content">
+        <button class="popup__close" type="button"></button>
+        <h2 class="popup__title">Анализ социальных данных</h2>
+        <img class="popup__img" src="./images/for pop up.png" alt="Несколько людей анализируют данные на компьютерах" />
+        <p class="popup__text popup__text_type_desktop">
+          Учебные лаборатории оснащены современным компьютерным оборудованием,
+          техническими средствами защиты информации, программными и
+          программно-аппаратными комплексами средств защиты, разработанными
+          ведущими производителями: Positive Technologies, Infotecs,
+          SearchInform, «Лаборатория ППШ» и других вендоров. Некоторые из
+          лабораторных установок являются уникальными по своим исследовательским
+          задачам.
+        </p>
+        <p class="popup__text popup__text_type_desktop-tablet">
+          Начиная с первого курса бакалавриата, студенты погружаются в область
+          их будущей профессиональной деятельности, активно развивают навыки
+          программирования, исследования защищенности информации в независимости
+          от формы ее представления, проектирования комплексных интегрированных
+          систем защиты информации, проходят различные виды практик.
+        </p>
+        <p class="popup__text popup__text_type_all">
+          В состав факультета входит ряд научных лабораторий и центров,
+          в которых проводятся исследования:
+        <ul class="popup__text-list">
+          <li class="popup__text-item">безопасные киберфизические
+            системы; разработка средств защиты информации;</li>
+          <li class="popup__text-item">функциональная безопасность беспилотных транспортных средств;</li>
+          <li class="popup__text-item">теория информации и кодирования; информационные процессы в
+            Интернет и безопасность виртуального пространства;</li>
+          <li class="popup__text-item">интеллектуальные защищенные системы мультиагентного взаимодействия и
+            пр.</li>
+        </ul>
+        </p>
+      </div>
     </div>
 
     <template></template>
+    <script type="module" src="./pages/index.js"></script>
+</body>
 
-  </body>
 </html>

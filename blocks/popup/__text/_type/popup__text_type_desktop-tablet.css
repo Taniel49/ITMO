@@ -1,0 +1,20 @@
+.popup__text_type_desktop-tablet {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .popup__text_type_desktop-tablet {
+        display: block;
+        grid-area: PH;
+        margin: 0 0 20px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .popup__text_type_desktop-tablet {
+       display: block;
+       grid-area: PH;
+       margin: 0 0 20px;
+    }
+}

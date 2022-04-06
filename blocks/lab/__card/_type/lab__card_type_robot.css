@@ -1,0 +1,15 @@
+@media screen and (min-width: 1201px) {
+    .lab__card_type_robot::after {
+        content: "";
+        background-position: center;
+        background-size: cover;
+        background-image: url(../../../../images/Lab/Robot.png);
+        opacity: 0.4;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: 2;
+    }
+}

@@ -1,0 +1,17 @@
+.popup__text_type_desktop {
+    display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .popup__text_type_desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .popup__text_type_desktop {
+       display: block;
+       grid-area: PD;
+       margin: 0 0 20px;
+    }
+}
