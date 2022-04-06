@@ -1,0 +1,23 @@
+.publication-card__wrapper {
+  position: relative;
+  min-width: 288px;
+  max-width: 288px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+  border-radius: 5px;
+  overflow: hidden;
+  color: #000D26;
+}
+
+@media (min-width: 768px) {
+  .publication-card__wrapper {
+    max-width: 330px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .publication-card__wrapper {
+    max-width: 348px;
+  }
+}

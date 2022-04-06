@@ -1,0 +1,14 @@
+.menu__list {
+  list-style: none;
+  margin: 0;
+  padding: 18px 0;
+  background-color: #000D26;
+}
+
+@media screen and (min-width: 1024px) {
+  .menu__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+}

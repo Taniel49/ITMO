@@ -1,0 +1,22 @@
+.menu {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  transition: height .2s ease-in;
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    top: 61px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .menu {
+    position: static;
+    width: auto;
+    height: auto !important;
+  }
+}

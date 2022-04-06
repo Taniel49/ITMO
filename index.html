@@ -1,19 +1,91 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ИТМО Когнитивные технологии</title>
+    <link rel="stylesheet" href="./vendor/normalize.css"/>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header__container">
+          <div class="burger">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+          </div>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ИТМО Когнитивные технологии</title>
-  <link rel="stylesheet" href="./pages/index.css" />
-</head>
+          <a href="#" class="logo logo_location_header">
+            <img class="logo__img" src="./images/logo.png" alt="Логотип" />
+          </a>
 
-<body>
-  <div class="page">
-    <header class="header"></header>
+          <nav id="menu" class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link menu__link_active">О нас</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Лаборатория</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Проекты</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link menu__link_type_opener"
+                  >Образование</a
+                >
+                <ul id="submenu" class="submenu">
+                  <li class="submenu__item">
+                    <a href="#" class="submenu__link">Магистратура</a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="#" class="submenu__link">Аспирантура</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Публикации</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Команда</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Связаться</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
 
-    <main class="content">
-      <section class="lab">
+      <main class="content">
+        <section class="cogn-technology">
+          <img
+            class="cogn-technology__background"
+            alt="Фон заголовка страницы"
+            src="./images/cogn-technology-bg.jpg"
+          />
+          <div class="cogn-technology__container">
+            <div>
+              <h1 class="cogn-technology__title">
+                <span class="cogn-technology__title-bold">
+                  Когнитивные технологии,
+                </span>
+                машинное обучение
+              </h1>
+              <p class="cogn-technology__text">
+                Системы прикладного искусственного интеллекта
+              </p>
+              <a href="#" class="cogn-technology__button">Наши проекты</a>
+        </section>
+
+        <section class="publications">
+          <div class="publications__wrapper">
+            <h2 class="publications__title">ПУБЛИКАЦИИ</h2>
+          </div>
+        </section>
+             <section class="lab">
         <h2 class="lab__title">INDUSTRIAL AI RESEARCH LAB</h2>
 
         <img class="lab__hidden-image" src="./images/Lab/image 38.jpg" alt="Человек в наушниках за ноутбуком" />
@@ -82,10 +154,11 @@
           </div>
         </div>
       </section>
-    </main>
+      </main>
 
-    <footer class="footer"></footer>
+      <footer class="footer"></footer>
 
+      
     <div class="popup popup__lab popup_transition">
       <div class="popup__content">
         <button class="popup__close" type="button"></button>
@@ -122,9 +195,92 @@
         </p>
       </div>
     </div>
+    </div>
 
     <template></template>
-    <script type="module" src="./pages/index.js"></script>
-</body>
 
+    <template id="publication-card">
+      <div class="publication-card">
+        <div class="publication-card__wrapper">
+          <div class="publication-card__img-wrapper">
+            <img
+              class="publication-card__img"
+              src="./images/Publication/publication_Topic-driven Ensemble for Online Advertising Generation.png"
+              alt="foto"
+            >
+          </div>
+          <div class="publication-card__content">
+            <h3 class="publication-card__header"></h3>
+            <p class="publication-card__authors"></p>
+            <p class="publication-card__text"></p>
+          </div>
+          <div class="publication-card__footer">
+            <a class="publication-card__link" href="#">
+              <p class="publication-card__footer-text">Читать полностью</p>
+              <img
+                class="publication-card__icon-arrow"
+                src="./images/icons/arrow.svg"
+                alt="Стрелка"
+              >
+            </a>
+            <img
+              class="publication-card__icon-social"
+              src="./images/icons/social-icon.svg"
+              alt="Социальные сети"
+            >
+          </div>
+        </div>
+        <ul class="publication-card__footer-social-options">
+          <li class="publication-card__footer-social-item">
+            <a class="publication-card__link" href="#">
+              <img
+                class="publication-card__social-icon"
+                src="./images/icons/vk-icon.svg"
+                alt="Иконка ВК"
+              >
+            </a>
+          </li>
+          <li class="publication-card__footer-social-item">
+            <a class="publication-card__link" href="#">
+              <img
+                class="publication-card__social-icon"
+                src="./images/icons/fb-icon.svg"
+                alt="Иконка Фейсбука"
+              >
+            </a>
+          </li>
+          <li class="publication-card__footer-social-item">
+            <a class="publication-card__link" href="#">
+              <img
+                class="publication-card__social-icon"
+                src="./images/icons/telegram-icon.svg"
+                alt="Иконка Телеграма"
+              >
+            </a>
+          </li>
+          <li class="publication-card__footer-social-item">
+            <a class="publication-card__link" href="#">
+              <img
+                class="publication-card__social-icon"
+                src="./images/icons/inst-icon.svg"
+                alt="Иконка Инстаграмма"
+              >
+            </a>
+          </li>
+          <li class="publication-card__footer-social-item">
+            <a class="publication-card__link" href="#">
+              <img
+                class="publication-card__social-icon"
+                src="./images/icons/you-tube-icon.svg"
+                alt="Иконка Ютуба"
+              >
+            </a>
+          </li>
+        </ul>
+      </div>
+    </template>
+    <script type="module" src="./pages/index.js"></script>
+    <script src="./scripts/menu.js"></script>
+    <script src="./scripts/script.js"></script>
+  </body>
 </html>
