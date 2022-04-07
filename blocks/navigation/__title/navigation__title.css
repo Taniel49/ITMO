@@ -1,0 +1,24 @@
+.navigation__title {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.0588372px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation__title {
+    margin-bottom: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navigation__title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
