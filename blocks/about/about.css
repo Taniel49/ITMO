@@ -1,0 +1,25 @@
+.about {
+  color: #fff;
+  overflow: hidden;
+  padding: 0 16px;
+}
+
+/*удалить после слива веток*/
+.header {
+  background: #001337;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    max-width: 690px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about {
+    padding: 0 95px 0 83px;
+    max-width: none;
+    margin: 0 auto;
+  }
+}

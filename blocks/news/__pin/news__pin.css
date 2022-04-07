@@ -1,0 +1,17 @@
+.news__pin {
+  position: absolute;
+  top: -12px;
+  right: -10px;
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .news__pin {
+    width: 40px;
+    height: 40px;
+    top: -15px;
+    right: -14px;
+  }
+}

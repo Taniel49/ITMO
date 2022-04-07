@@ -1,0 +1,13 @@
+.news {
+  /* width: 100%;
+  height: 100%; */
+  overflow: hidden;
+  padding-top: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .news {
+    padding-top: 15px;
+  }
+}
+

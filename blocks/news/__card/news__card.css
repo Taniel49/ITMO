@@ -1,0 +1,10 @@
+.news__card {
+  padding: 16px 24px 16px 16px;
+  background: #e0f0ff;
+  border-radius: 5px;
+  position: relative;
+  /* max-width: 280px; */
+  box-sizing: border-box;
+  height: auto;
+  flex-shrink: 0;
+}

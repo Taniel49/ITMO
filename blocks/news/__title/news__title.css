@@ -1,0 +1,9 @@
+.news__title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #001337;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #009FAC;
+}

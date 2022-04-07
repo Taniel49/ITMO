@@ -1,0 +1,25 @@
+.about__description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .about__description {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about__description {
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 907px;
+    margin: 0 auto 30px;
+  }
+}
