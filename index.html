@@ -129,12 +129,40 @@
                   <button class="education__switch-magistracy education__switch-button">Магистратура</button>
               </div>
           </div>
+
+        </section>
+        <section class="feedback">
+          <h2 class="feedback__title">Всегда на связи</h2>
+          <p class="feedback__info">По всем интересующим вас вопросам вы всегда можете обратиться по указанным телефонам,
+          написать на почту или оставтиь свое сообщение через форму обратной связи. </p>
+          <form class="feedback__form" name="feedbackForm" novalidate>
+            <div class="feedback__user">
+              <fieldset class="feedback__name feedback__fieldset">
+                <input type="text" class="feedback__input feedback__input_input_username" name="userName" placeholder="Имя" required minlength="2" maxlength="30">
+                <span class="feedback__errorplace" id="userName-error"></span>
+                <input type="text" class="feedback__input feedback__input_input_usersurname" name="userSurname" placeholder="Фамилия" minlength="2" maxlength="30">
+                <span class="feedback__errorplace" id="userSurname-error"></span>
+              </fieldset>
+              <fieldset class="feedback__contact feedback__fieldset">
+                <input type="tel" class="feedback__input feedback__input_input_usertel" name="userTel" placeholder="Телефон" minlength="11" maxlength="12" required  pattern="[0-9]{11}">
+                <span class="feedback__errorplace" id="userTel-error"></span>
+                <input type="email" class="feedback__input feedback__input_input_useremail" name="userEmail" placeholder="E-mail" minlength="5" maxlength="30">
+                <span class="feedback__errorplace" id="userEmail-error"></span>
+              </fieldset>
+              <fieldset class="feedback__massage feedback__fieldset">
+                <textarea type="text" class="feedback__input_input_usermessage feedback__textarea" name="userMessage" placeholder="Сообщение" required minlength="10" maxlength="300"></textarea>
+              </fieldset>
+            </div>
+            <button type="submit" class="feedback__button_inactive feedback__button" aria-label="кнопка отправить" disabled>отправить</button>
+          </form>
+
       </section>
 
         <section class="publications">
           <div class="publications__wrapper">
             <h2 class="publications__title">ПУБЛИКАЦИИ</h2>
           </div>
+
         </section>
              <section class="lab">
         <h2 class="lab__title">INDUSTRIAL AI RESEARCH LAB</h2>
@@ -464,6 +492,8 @@
     <script type="module" src="./pages/index.js"></script>
     <script src="./scripts/menu.js"></script>
     <script src="./scripts/education.js"></script>
+    <script src="./scripts/feedback.js"></script>
     <script src="./scripts/script.js"></script>
+
   </body>
 </html>

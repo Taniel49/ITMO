@@ -1,0 +1,21 @@
+.feedback__form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 40px;
+  width: 288px;
+}
+
+
+@media screen and (min-width: 710px) {
+  .feedback__form {
+    margin: 0 auto 60px;
+    width: 688px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .feedback__form {
+    margin: 0 auto 35px;
+    width: 1115px;
+  }
+}

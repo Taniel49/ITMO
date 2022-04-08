@@ -1,0 +1,7 @@
+.feedback {
+  background-color: rgba(0, 159, 172, 1);
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
