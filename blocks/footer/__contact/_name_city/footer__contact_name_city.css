@@ -1,0 +1,23 @@
+.footer__contact_name_city {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: normal;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__contact_name_city {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: 0.1px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__contact_name_city {
+    line-height: 1.67;
+    font-weight: 600;
+  }
+}

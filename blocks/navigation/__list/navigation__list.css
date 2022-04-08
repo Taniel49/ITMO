@@ -1,0 +1,28 @@
+.navigation__list {
+  list-style: none;
+  margin: 0 8px 0 0;
+  padding: 0;
+  min-width: 140px;
+}
+
+.navigation__list:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation__list {
+    min-width: 120px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navigation__list {
+    min-width: 95px;
+    margin-right: 150px;
+  }
+
+  .navigation__list:last-of-type {
+    margin-right: 0;
+  }
+}
