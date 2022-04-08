@@ -1,0 +1,24 @@
+.education__text {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0 0 20px;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .education__text {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 0 40px;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .education__text {
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 60px;
+    }
+}

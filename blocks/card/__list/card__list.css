@@ -1,0 +1,24 @@
+.card__list {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    margin: 0 0 16px;
+    padding-left: 20px;
+}
+
+@media screen and (min-width: 650px) {
+    .card__list {
+        line-height: 20px;
+        margin: 0 0 40px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .card__list {
+        font-size: 18px;
+        line-height: 30px;
+        padding-left: 40px;
+    }
+}

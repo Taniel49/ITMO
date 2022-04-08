@@ -1,0 +1,16 @@
+.card__info {
+    margin: 0 16px 20px;
+}
+
+@media screen and (min-width: 650px) {
+    .card__info {
+        margin: 20px 0 20px 20px;
+        grid-area: info;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .card__info {
+        margin: 30px 0 30px 30px;
+    }
+}
