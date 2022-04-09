@@ -7,7 +7,7 @@
     border-radius: 5.9px;
     position: relative;
     color: #001337;
-    transition: background-color 1s, color 1s;
+    transition: background-color 0s, color 0s;
 }
 
 .lab__card:hover {

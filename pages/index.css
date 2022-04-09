@@ -32,3 +32,4 @@
 @import url(../blocks/popup/__text/popup__text.css);
 @import url(../blocks/popup/__text-list/popup__text-list.css);
 @import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup/_transition/popup_transition.css);

@@ -1,4 +1,4 @@
-import Popup from "../components/Popup.js";
+import Popup from "./Popup.js";
 
 const popupLab = new Popup('.popup__lab');
 
