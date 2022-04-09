@@ -1,0 +1,11 @@
+.publication-card__icon-social {
+  margin-left: auto;
+  width: 21px;
+  height: 21px;
+  transition: 0.2s all ease-in;
+  cursor: pointer;
+}
+
+.publication-card__icon-social:hover {
+  opacity: 0.5;
+}

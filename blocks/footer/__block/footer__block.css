@@ -1,0 +1,15 @@
+.footer__block {
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__block {
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__block {
+    margin-bottom: 38px;
+  }
+}

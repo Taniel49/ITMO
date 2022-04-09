@@ -1,0 +1,19 @@
+.publication-card__content {
+  padding: 0 16px 16px 16px;
+}
+
+@media (min-width: 768px) {
+  .publication-card__content {
+    padding: 0 20px 10px 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .publication-card__content {
+    position: relative;
+    z-index: 10;
+    padding-bottom: 30px;
+    background-color: white;
+    transition: 0.1s all ease-in;
+  }
+}

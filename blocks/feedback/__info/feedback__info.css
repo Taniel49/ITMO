@@ -1,0 +1,27 @@
+.feedback__info {
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  margin: 0 auto 23px;
+  text-align: left;
+  max-width: 288px;
+}
+
+@media screen and (min-width: 710px) {
+  .feedback__info {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 auto 37px;
+    max-width: 690px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .feedback__info {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 auto 60px;
+    max-width: 919px;
+  }
+}

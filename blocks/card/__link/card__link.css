@@ -1,0 +1,33 @@
+.card__link {
+ font-family: inherit;
+ font-weight: 600;
+ font-size: 12px;
+ line-height: 16px;
+ text-decoration: none;
+ color: rgba(0, 13, 38, 1); 
+ cursor: pointer;
+ /* transition: 0.2s all ease-in; */
+}
+
+.card__link:hover {
+    font-weight: 700;
+    text-decoration: underline;
+    letter-spacing: 0.1px;
+    /* opacity: 0.3;
+    transition: 0.2s all ease-in; */
+}
+
+
+@media screen and (min-width: 700px) {
+    .card__link {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .card__link {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

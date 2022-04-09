@@ -1,0 +1,17 @@
+.burger__line_opened {
+  position: relative;
+}
+
+.burger__line_opened:first-child {
+  top: 1px;
+  transform: rotate(45deg);
+}
+
+.burger__line_opened:nth-child(2) {
+  display: none;
+}
+
+.burger__line_opened:last-child {
+  bottom: 1px;
+  transform: rotate(135deg);
+}

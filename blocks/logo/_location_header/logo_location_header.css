@@ -1,0 +1,15 @@
+.logo_location_header {
+  max-width: 71px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo_location_header {
+    max-width: 94px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logo_location_header {
+    max-width: 150px;
+  }
+}

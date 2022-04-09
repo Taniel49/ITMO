@@ -1,0 +1,18 @@
+.publication-card__footer-text {
+  margin: 0;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  margin-right: 11px;
+  transition: 0.2s all ease-in;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .publication-card__footer-text {
+    font-size: 18px;
+    line-height: 30px;
+    margin-right: 15px;
+  }
+}

@@ -1,0 +1,29 @@
+.footer__contact {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: 0.1px;
+  color: #fff;
+  margin: 0 0 8px;
+}
+
+.footer__contact:last-of-type {
+  margin-bottom: 21px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__contact:last-of-type {
+    margin-bottom: 110px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__contact {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .footer__contact:last-of-type {
+    margin-bottom: 66px;
+  }
+}
