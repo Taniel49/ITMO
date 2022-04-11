@@ -91,41 +91,6 @@
 @import url(../blocks/publications/__wrapper/publications__wrapper.css);
 @import url(../blocks/publications/publications.css);
 
-
-@import url(../blocks/lab/lab.css);
-@import url(../blocks/lab/__title/lab__title.css);
-@import url(../blocks/lab/__image/lab__image.css);
-@import url(../blocks/lab/__hidden-image/lab__hidden-image.css);
-@import url(../blocks/lab/__molecule/lab__molecule.css);
-@import url(../blocks/lab/__paragraph/lab__paragraph.css);
-@import url(../blocks/lab/__cards/lab__cards.css);
-@import url(../blocks/lab/__card/_type/lab__card_type_robot.css);
-@import url(../blocks/lab/__card/_type/lab__card_type_data.css);
-@import url(../blocks/lab/__card/_type/lab__card_type_machine.css);
-@import url(../blocks/lab/__card/_type/lab__card_type_project.css);
-@import url(../blocks/lab/__card/lab__card.css);
-@import url(../blocks/lab/__card-title/lab__card-title.css);
-@import url(../blocks/lab/__card-circle/lab__card-circle.css);
-@import url(../blocks/lab/__card-img/lab__card-img.css);
-@import url(../blocks/lab/__card-text/lab__card-text.css);
-@import url(../blocks/lab/__card-button/lab__card-button.css);
-
-@import url(../blocks/popup/popup.css);
-@import url(../blocks/popup/__content/popup__content.css);
-@import url(../blocks/popup/_open/popup_open.css);
-@import url(../blocks/popup/__img/popup__img.css);
-@import url(../blocks/popup/__title/popup__title.css);
-@import url(../blocks/popup/__text/_type/popup__text_type_desktop-tablet.css);
-@import url(../blocks/popup/__text/_type/popup__text_type_desktop.css);
-@import url(../blocks/popup/__text/_type/popup__text_type_all.css);
-@import url(../blocks/popup/__text/popup__text.css);
-@import url(../blocks/popup/__text-list/popup__text-list.css);
-@import url(../blocks/popup/__close/popup__close.css);
-<<<<<<< HEAD
-@import url(../blocks/popup/_transition/popup_transition.css);
-=======
-
-
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__content/footer__content.css);
 @import url(../blocks/footer/__container/footer__container.css);
@@ -150,5 +115,35 @@
 @import url(../blocks/social/__item/social__item.css);
 @import url(../blocks/social/__link/social__link.css);
 @import url(../blocks/social/__img/social__img.css);
+/* section lab */
+@import url(../blocks/lab/lab.css);
+@import url(../blocks/lab/__title/lab__title.css);
+@import url(../blocks/lab/__image/lab__image.css);
+@import url(../blocks/lab/__hidden-image/lab__hidden-image.css);
+@import url(../blocks/lab/__molecule/lab__molecule.css);
+@import url(../blocks/lab/__paragraph/lab__paragraph.css);
+@import url(../blocks/lab/__cards/lab__cards.css);
+@import url(../blocks/lab/__card/_type/lab__card_type_robot.css);
+@import url(../blocks/lab/__card/_type/lab__card_type_data.css);
+@import url(../blocks/lab/__card/_type/lab__card_type_machine.css);
+@import url(../blocks/lab/__card/_type/lab__card_type_project.css);
+@import url(../blocks/lab/__card/lab__card.css);
+@import url(../blocks/lab/__card-title/lab__card-title.css);
+@import url(../blocks/lab/__card-circle/lab__card-circle.css);
+@import url(../blocks/lab/__card-img/lab__card-img.css);
+@import url(../blocks/lab/__card-text/lab__card-text.css);
+@import url(../blocks/lab/__card-button/lab__card-button.css);
 
->>>>>>> b0e305e5a9ff4ef8d49a2724d7733d290d8e8d37
+/* popup-lab */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__content/popup__content.css);
+@import url(../blocks/popup/_open/popup_open.css);
+@import url(../blocks/popup/__img/popup__img.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__text/_type/popup__text_type_desktop-tablet.css);
+@import url(../blocks/popup/__text/_type/popup__text_type_desktop.css);
+@import url(../blocks/popup/__text/_type/popup__text_type_all.css);
+@import url(../blocks/popup/__text/popup__text.css);
+@import url(../blocks/popup/__text-list/popup__text-list.css);
+@import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup/_transition/popup_transition.css);
