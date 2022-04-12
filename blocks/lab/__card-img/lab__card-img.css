@@ -1,0 +1,12 @@
+.lab__card-img {
+    color: #009FAC;
+    width: 19px;
+    height: 19px;
+}
+
+@media screen and (min-width: 1201px) {
+    .lab__card-img {
+        width: 34px;
+        height: 34px;
+    }
+}

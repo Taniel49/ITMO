@@ -1,0 +1,13 @@
+.lab__molecule {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+    .lab__molecule {
+        display: block;
+        width: 24px;
+        height: 22.5px;
+        margin-bottom: -25px;
+        margin-left: -33px;
+    }
+}

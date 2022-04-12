@@ -1,0 +1,44 @@
+.popup__close {
+    background-image: url(../../../images/Lab/close.svg);
+    background-color: white;
+    color: #000D26;
+    border: none;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    background-position: center;
+    transition: opacity 0.1s linear 0.1s;
+}
+
+.popup__close:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .popup__close {
+        width: 16px;
+        height: 16px;
+        transition: opacity 0.1s linear 0.1s;
+    }
+
+    .popup__close:hover {
+        cursor: pointer;
+        opacity: 0.6;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .popup__close {
+        width: 19px;
+        height: 19px;
+        transition: opacity 0.1s linear 0.1s;
+    }
+
+    .popup__close:hover {
+        cursor: pointer;
+        opacity: 0.6;
+    }
+}

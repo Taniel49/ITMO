@@ -1,0 +1,42 @@
+.lab__paragraph {
+    max-width: 90%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    align-self: stretch;
+    margin: 0 auto 20px;
+    color: #000D26;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .lab__paragraph {
+        grid-area: P;
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+        font-weight: 400;
+    }
+
+    .lab__paragraph:last-child {
+        margin: 0;
+        font-weight: 300;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .lab__paragraph {
+        margin: 0 18px 20px 0;
+        max-width: 100%;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.1px;
+        font-weight: 400;
+    }
+
+    .lab__paragraph:last-child {
+        margin: 0 18px 0 0;
+        font-weight: 300;
+    }
+}
