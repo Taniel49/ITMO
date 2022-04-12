@@ -4,5 +4,15 @@
   font-size: 12px;
   line-height: 145%;
   color: #009fac;
+  margin: 0;
   margin-bottom: 8px;
 }
+
+@media screen and (min-width: 768px) {
+  .news__date {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+

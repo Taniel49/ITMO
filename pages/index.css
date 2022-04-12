@@ -9,4 +9,7 @@
 @import url(../blocks/news/__title/news__title.css);
 @import url(../blocks/news/__description/news__descriptiom.css);
 @import url(../blocks/news/__pin/news__pin.css);
+@import url(../blocks/news/__slider/news__slider.css);
+@import url(../blocks/news/__slider-btn-arrow/news__slider-btn-arrow.css);
+@import url(../blocks/news/__slider-pagination/news__slider-pagination.css);
 @import url(../vendor/font.css);

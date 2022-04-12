@@ -1,13 +1,23 @@
 .news {
-  /* width: 100%;
-  height: 100%; */
   overflow: hidden;
-  padding-top: 12px;
+  padding: 12px 20px 71px;
+  position: relative;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
   .news {
-    padding-top: 15px;
+    padding: 15px 39px 110px;
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .news {
+    padding-top: 0;
+    padding-bottom: 135px;
+    margin-left: 95px;
+    margin-right: 95px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}

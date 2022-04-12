@@ -1,0 +1,23 @@
+.news__slider-btn-arrow {
+  display: none;
+  width: 60px;
+  height: 60px;
+  background: #001337;
+  box-shadow: 0px 4px 30px rgba(224, 240, 255, 0.1);
+  border-radius: 36px;
+  margin: 0;
+  top: 130px;
+}
+
+.news__slider-btn-arrow.swiper-button-prev {
+  left: 0;
+}
+.news__slider-btn-arrow.swiper-button-next {
+  right: 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .news__slider-btn-arrow {
+    display: flex;
+  }
+}

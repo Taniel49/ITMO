@@ -3,7 +3,17 @@
   font-size: 14px;
   line-height: 19px;
   color: #001337;
+  margin: 0;
   padding-bottom: 12px;
   margin-bottom: 12px;
-  border-bottom: 1px solid #009FAC;
+  border-bottom: 1px solid #009fac;
+}
+
+@media screen and (min-width: 768px) {
+  .news__title {
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
 }
