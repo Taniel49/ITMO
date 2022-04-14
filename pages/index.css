@@ -13,3 +13,149 @@
 @import url(../blocks/news/__slider-btn-arrow/news__slider-btn-arrow.css);
 @import url(../blocks/news/__slider-pagination/news__slider-pagination.css);
 @import url(../vendor/font.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+
+@import url(../blocks/burger/burger.css);
+@import url(../blocks/burger/__line/burger__line.css);
+@import url(../blocks/burger/__line/_opened/burger__line_opened.css);
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_location_header/logo_location_header.css);
+@import url(../blocks/logo/_location_footer/logo_location_footer.css);
+@import url(../blocks/logo/__img/logo__img.css);
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__list/menu__list.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/menu/__link/_inactive/menu__link_inactive.css);
+@import url(../blocks/menu/__link/_opened/menu__link_opened.css);
+
+@import url(../blocks/submenu/submenu.css);
+@import url(../blocks/submenu/__link/submenu__link.css);
+
+@import url(../blocks/cogn-technology/cogn-technology.css);
+@import url(../blocks/cogn-technology/__background/cogn-technology__background.css);
+@import url(../blocks/cogn-technology/__container/cogn-technology__container.css);
+@import url(../blocks/cogn-technology/__title/cogn-technology__title.css);
+@import url(../blocks/cogn-technology/__title-bold/cogn-technology__title-bold.css);
+@import url(../blocks/cogn-technology/__text/cogn-technology__text.css);
+@import url(../blocks/cogn-technology/__button/cogn-technology__button.css);
+
+/*образование */
+@import url(../blocks/education/education.css);
+@import url(../blocks/education/__container/education__container.css);
+@import url(../blocks/education/__title/education__title.css);
+@import url(../blocks/education/__text/education__text.css);
+@import url(../blocks/education/__switch/education__switch.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/education/__card_hidden/education__card_hidden.css);
+@import url(../blocks/education/__switch-button/_active/education__switch-button_active.css);
+@import url(../blocks/education/__switch-button/education__switch-button.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__info/card__info.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__list/card__list.css);
+@import url(../blocks/card/__link/card__link.css);
+@import url(../blocks/card/__span/card__span.css);
+
+/*обратная связь */
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/feedback/__title/feedback__title.css);
+@import url(../blocks/feedback/__info/feedback__info.css);
+@import url(../blocks/feedback/__form/feedback__form.css);
+@import url(../blocks/feedback/__user/feedback__user.css);
+@import url(../blocks/feedback/__fieldset/feedback__fieldset.css);
+@import url(../blocks/feedback/__input/feedback__input.css);
+@import url(../blocks/feedback/__input/_error/feedback__input_error.css);
+@import url(../blocks/feedback/__textarea/feedback__textarea.css);
+@import url(../blocks/feedback/__button/feedback__button.css);
+@import url(../blocks/feedback/__button/_inactive/feedback__button_inactive.css);
+@import url(../blocks/feedback/__errorplace/feedback__errorplace.css);
+@import url(../blocks/feedback/__errorplace/_active/feedback__errorplace_active.css);
+
+/* publication-card */
+@import url(../blocks/publication-card/__authors/publication-card__authors.css);
+@import url(../blocks/publication-card/__content/publication-card__content.css);
+@import url(../blocks/publication-card/__content/_up/publication-card__content_up.css);
+@import url(../blocks/publication-card/__footer-social-item/publication-card__footer-social-item.css);
+@import url(../blocks/publication-card/__footer-social-options/publication-card__footer-social-options.css);
+@import url(../blocks/publication-card/__footer-social-options/_visible/publication-card__footer-social-options_visible.css);
+@import url(../blocks/publication-card/__footer-text/publication-card__footer-text.css);
+@import url(../blocks/publication-card/__footer/publication-card__footer.css);
+@import url(../blocks/publication-card/__header/publication-card__header.css);
+@import url(../blocks/publication-card/__icon-arrow/publication-card__icon-arrow.css);
+@import url(../blocks/publication-card/__icon-social/publication-card__icon-social.css);
+@import url(../blocks/publication-card/__img-wrapper/publication-card__img-wrapper.css);
+@import url(../blocks/publication-card/__img/publication-card__img.css);
+@import url(../blocks/publication-card/__link/publication-card__link.css);
+@import url(../blocks/publication-card/__social-icon/publication-card__social-icon.css);
+@import url(../blocks/publication-card/__text/publication-card__text.css);
+@import url(../blocks/publication-card/__wrapper/publication-card__wrapper.css);
+@import url(../blocks/publication-card/publication-card.css);
+
+/* publications */
+@import url(../blocks/publications/__title/publications__title.css);
+@import url(../blocks/publications/__wrapper/publications__wrapper.css);
+@import url(../blocks/publications/publications.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__block/footer__block.css);
+@import url(../blocks/footer/__about/footer__about.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__copyright/_type_mobile/footer__copyright_type_mobile.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__contact/footer__contact.css);
+@import url(../blocks/footer/__contact/_name_city/footer__contact_name_city.css);
+@import url(../blocks/footer/__created/footer__created.css);
+@import url(../blocks/footer/__info/footer__info.css);
+@import url(../blocks/footer/__text/footer__text.css);
+
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__list/navigation__list.css);
+@import url(../blocks/navigation/__item/navigation__item.css);
+@import url(../blocks/navigation/__title/navigation__title.css);
+@import url(../blocks/navigation/__link/navigation__link.css);
+
+@import url(../blocks/social/social.css);
+@import url(../blocks/social/__item/social__item.css);
+@import url(../blocks/social/__link/social__link.css);
+@import url(../blocks/social/__img/social__img.css);
+/* section lab */
+@import url(../blocks/lab/lab.css);
+@import url(../blocks/lab/__title/lab__title.css);
+@import url(../blocks/lab/__image/lab__image.css);
+@import url(../blocks/lab/__hidden-image/lab__hidden-image.css);
+@import url(../blocks/lab/__molecule/lab__molecule.css);
+@import url(../blocks/lab/__paragraph/lab__paragraph.css);
+@import url(../blocks/lab/__cards/lab__cards.css);
+@import url(../blocks/lab/__card/_type/lab__card_type_robot.css);
+@import url(../blocks/lab/__card/_type/lab__card_type_data.css);
+@import url(../blocks/lab/__card/_type/lab__card_type_machine.css);
+@import url(../blocks/lab/__card/_type/lab__card_type_project.css);
+@import url(../blocks/lab/__card/lab__card.css);
+@import url(../blocks/lab/__card-title/lab__card-title.css);
+@import url(../blocks/lab/__card-circle/lab__card-circle.css);
+@import url(../blocks/lab/__card-img/lab__card-img.css);
+@import url(../blocks/lab/__card-text/lab__card-text.css);
+@import url(../blocks/lab/__card-button/lab__card-button.css);
+
+/* popup-lab */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__content/popup__content.css);
+@import url(../blocks/popup/_open/popup_open.css);
+@import url(../blocks/popup/__img/popup__img.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__text/_type/popup__text_type_desktop-tablet.css);
+@import url(../blocks/popup/__text/_type/popup__text_type_desktop.css);
+@import url(../blocks/popup/__text/_type/popup__text_type_all.css);
+@import url(../blocks/popup/__text/popup__text.css);
+@import url(../blocks/popup/__text-list/popup__text-list.css);
+@import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup/_transition/popup_transition.css);

@@ -1,0 +1,32 @@
+.feedback__button_inactive {
+  height: 44px;
+  border-radius: 5px;
+  color: inherit;
+  outline: none;
+  border: 1px solid gray;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: gray;
+}
+
+@media screen and (min-width: 710px) {
+  .feedback__button_inactive {
+    font-size: 18px;
+    line-height: 30px;
+    width: 210px;
+    align-self: center;
+    margin-top: 17px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .feedback__button_inactive {
+    width: 350px;
+    height: 60px;
+  }
+}

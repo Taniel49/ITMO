@@ -1,0 +1,11 @@
+.education__switch {
+    margin: 0 auto 40px;
+    padding-left: 10px;
+}
+
+@media screen and (min-width: 700px) {
+    .education__switch {
+        margin-bottom: 60px;
+        padding-left: 30px;
+    }
+}

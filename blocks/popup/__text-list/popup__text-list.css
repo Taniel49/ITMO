@@ -1,0 +1,25 @@
+.popup__text-list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    padding-left: 16px;
+    letter-spacing: 0.1px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .popup__text-list {
+        font-size: 14px;
+        line-height: 19px;
+        grid-area: L;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .popup__text-list {
+        font-size: 18px;
+        line-height: 25px;
+        grid-area: L;
+    }
+}

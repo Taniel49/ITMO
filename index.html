@@ -1,17 +1,62 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ИТМО Когнитивные технологии</title>
-    <link rel="stylesheet" href="./pages/index.css" />
-  </head>
-  <body>
 
-    <div class="page">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ИТМО Когнитивные технологии</title>
+  <link rel="stylesheet" href="./vendor/normalize.css" />
+  <link rel="stylesheet" href="./pages/index.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="header__container">
+        <div class="burger">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </div>
 
-      <header class="header">
-        <section class="about">
+        <a href="#" class="logo logo_location_header">
+          <img class="logo__img" src="./images/logo.png" alt="Логотип" />
+        </a>
+
+        <nav id="menu" class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#" class="menu__link menu__link_active">О нас</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Лаборатория</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Проекты</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link menu__link_type_opener">Образование</a>
+              <ul id="submenu" class="submenu">
+                <li class="submenu__item">
+                  <a href="#" class="submenu__link">Магистратура</a>
+                </li>
+                <li class="submenu__item">
+                  <a href="#" class="submenu__link">Аспирантура</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Публикации</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Команда</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Связаться</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+       <section class="about">
           <h2 class="about__title">Несколько слов о нас</h2>
           <p class="about__description">Национальный центр когнитивных разработок – центр национальной технологической инициативы (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения и когнитивные технологии».</p>
         </section>
@@ -60,19 +105,399 @@
             <div class="news__slider-btn-arrow swiper-button-next"></div>
           </div>
         </section>
-      </header>
+    </header>
 
-      <main class="content">
-        <section></section>
-      </main>
+    <main class="content">
+      <section class="cogn-technology">
+        <img class="cogn-technology__background" alt="Фон заголовка страницы" src="./images/cogn-technology-bg.jpg" />
+        <div class="cogn-technology__container">
+          <div>
+            <h1 class="cogn-technology__title">
+              <span class="cogn-technology__title-bold">
+                Когнитивные технологии,
+              </span>
+              машинное обучение
+            </h1>
+            <p class="cogn-technology__text">
+              Системы прикладного искусственного интеллекта
+            </p>
+            <a href="#" class="cogn-technology__button">Наши проекты</a>
+          </div>
+        </div>
+      </section>
+      <section class="education">
+        <div class="education__container">
+          <h2 class="education__title">Образование</h2>
+          <p class="education__text">В образовательной деятельности НЦКР активно использует существующую
+            в Университете ИТМО инфраструктуру и опыт реализации сетевых форм обучения,
+            опираясь на вузы-диссеминаторы (ННГУ, ДВФУ, ФГБОУ ВО «МГТУ «СТАНКИН», НовГУ),
+            а также профильную компанию ООО «НЦЭО» в области электронного и дистанционного образования.
+            Реализуются образовательные программы различных форматов.
+          </p>
+          <div class="education__card education__card-aspirant card">
+            <img class="card__image" src="./images/Study/Aspirant.png" alt="фотогафия аспирантов">
+            <div class="card__info">
+              <h3 class="card__title">Образовательные программы аспирантуры в области МО&nbsp;и&nbsp;КТ</h3>
+              <ul class="card__list">
+                <li class="card__list-item">Прикладные технологии искусственного интеллекта;</li>
+                <li class="card__list-item">Машинное обучение и искусственный интеллект;</li>
+                <li class="card__list-item">Биометрические информационные системы;</li>
+                <li class="card__list-item">Речевые информационные системы;</li>
+                <li class="card__list-item">Когнитивные вычисления и квантовый интеллект;</li>
+                <li class="card__list-item">Большие данные и экстренные вычисления;</li>
+                <li class="card__list-item">Семантические системы и инженерия знаний;</li>
+                <li class="card__list-item">Технологии разработки компьютерных игр</li>
+              </ul>
+              <a class="card__link" href="https://aspirantura.itmo.ru/?main=12" target="_blank">Подробнее <span
+                  class="card__span">&xrarr;</span></a>
+            </div>
+          </div>
+          <div class="education__card education__card-magistr card education__card_hidden">
+            <img class="card__image" src="./images/Study/Magistr.png" alt="фотогафия магистров">
+            <div class="card__info">
+              <h3 class="card__title">Образовательные программы магистратуры в области МО&nbsp;и&nbsp;КТ</h3>
+              <ul class="card__list">
+                <li class="card__list-item">Прикладные технологии искусственного интеллекта;</li>
+                <li class="card__list-item">Машинное обучение и искусственный интеллект;</li>
+                <li class="card__list-item">Биометрические информационные системы;</li>
+                <li class="card__list-item">Речевые информационные системы;</li>
+                <li class="card__list-item">Когнитивные вычисления и квантовый интеллект;</li>
+                <li class="card__list-item">Большие данные и экстренные вычисления;</li>
+                <li class="card__list-item">Семантические системы и инженерия знаний;</li>
+                <li class="card__list-item">Технологии разработки компьютерных игр</li>
+              </ul>
+              <a class="card__link" href="https://abit.itmo.ru/program/14596/#passport" target="_blank">Подробнее <span
+                  class="card__span">&xrarr;</span></a>
+            </div>
+          </div>
+          <div class="education__switch">
+            <button class="education__switch-aspirant education__switch-button_active">Аспирантура</button>
+            <!--нужен ли hover??-->
+            <button class="education__switch-magistracy education__switch-button">Магистратура</button>
+          </div>
+        </div>
+      </section>
+      <section class="lab">
+        <h2 class="lab__title">INDUSTRIAL AI RESEARCH LAB</h2>
 
-      <footer class="footer"></footer>
+        <img class="lab__hidden-image" src="./images/Lab/image 38.jpg" alt="Человек в наушниках за ноутбуком" />
+        <img class="lab__image" src="./images/Lab/image 35.jpg" alt="Люди работают за компьютером" />
 
-      <div class="popup"></div>
+        <div>
+          <p class="lab__paragraph">
+            Центр национальной технологической инициативы (НТИ), получивший
+            государственную поддержку по направлению «Технологии машинного
+            обучения и когнитивные технологии».
+          </p>
+          <div>
+            <img class="lab__molecule" src="./images/Lab/molecula.svg" />
+            <p class="lab__paragraph">
+              Мы изучаем проблемы и выявляем, когда мы работаем вместе с
+              нашими клиентами, новые решения находят, не задумываясь. Работая
+              таким образом и проявляя гибкость, мы можем поддерживать новый
+              подход для удовлетворения потребностей наших клиентов.
+            </p>
+          </div>
+        </div>
+        <div class="lab__cards">
+          <div class="lab__card lab__card_type_project">
+            <h3 class="lab__card-title">Анализ&nbsp;социальных данных</h3>
+            <div class="lab__card-circle">
+              <img class="lab__card-img" src="./images/Lab/Card1.svg" alt="Карандаш и линейка" />
+            </div>
+            <p class="lab__card-text">
+              Направление включает в себя исследования и разработки технологий
+              МО и КТ
+            </p>
+            <div class="lab__card-button">Подробнее</div>
+          </div>
+          <div class="lab__card lab__card_type_machine">
+            <h3 class="lab__card-title">Инфраструктура больших данных</h3>
+            <div class="lab__card-circle">
+              <img class="lab__card-img" src="./images/Lab/Card2.svg" alt="Структура данных" />
+            </div>
+            <p class="lab__card-text">
+              Направление включает в себя исследования и разработки технологий
+              МО и КТ
+            </p>
+            <div class="lab__card-button">Подробнее</div>
+          </div>
+          <div class="lab__card lab__card_type_data">
+            <h3 class="lab__card-title">Облачные вычисления</h3>
+            <div class="lab__card-circle">
+              <img class="lab__card-img" src="./images/Lab/Card3.svg" alt="Микрочип" />
+            </div>
+            <p class="lab__card-text">
+              Направление включает в себя исследования и разработки технологий
+              МО и КТ
+            </p>
+            <div class="lab__card-button">Подробнее</div>
+          </div>
+          <div class="lab__card lab__card_type_robot">
+            <h3 class="lab__card-title">QA<br />системы</h3>
+            <div class="lab__card-circle">
+              <img class="lab__card-img" src="./images/Lab/Card4.svg" alt="Робот" />
+            </div>
+            <p class="lab__card-text">
+              Направление включает в себя исследования и разработки технологий
+              МО и КТ
+            </p>
+            <div class="lab__card-button">Подробнее</div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="feedback">
+        <h2 class="feedback__title">Всегда на связи</h2>
+        <p class="feedback__info">По всем интересующим вас вопросам вы всегда можете обратиться по указанным телефонам,
+          написать на почту или оставтиь свое сообщение через форму обратной связи. </p>
+        <form class="feedback__form" name="feedbackForm" novalidate>
+          <div class="feedback__user">
+            <fieldset class="feedback__name feedback__fieldset">
+              <input type="text" class="feedback__input feedback__input_input_username" name="userName"
+                placeholder="Имя" required minlength="2" maxlength="30">
+              <span class="feedback__errorplace" id="userName-error"></span>
+              <input type="text" class="feedback__input feedback__input_input_usersurname" name="userSurname"
+                placeholder="Фамилия" minlength="2" maxlength="30">
+              <span class="feedback__errorplace" id="userSurname-error"></span>
+            </fieldset>
+            <fieldset class="feedback__contact feedback__fieldset">
+              <input type="tel" class="feedback__input feedback__input_input_usertel" name="userTel"
+                placeholder="Телефон" minlength="11" maxlength="12" required pattern="[0-9]{11}">
+              <span class="feedback__errorplace" id="userTel-error"></span>
+              <input type="email" class="feedback__input feedback__input_input_useremail" name="userEmail"
+                placeholder="E-mail" minlength="5" maxlength="30">
+              <span class="feedback__errorplace" id="userEmail-error"></span>
+            </fieldset>
+            <fieldset class="feedback__massage feedback__fieldset">
+              <textarea type="text" class="feedback__input_input_usermessage feedback__textarea" name="userMessage"
+                placeholder="Сообщение" required minlength="10" maxlength="300"></textarea>
+            </fieldset>
+          </div>
+          <button type="submit" class="feedback__button_inactive feedback__button" aria-label="кнопка отправить"
+            disabled>отправить</button>
+        </form>
 
+      </section>
+
+      <section class="publications">
+        <div class="publications__wrapper">
+          <h2 class="publications__title">ПУБЛИКАЦИИ</h2>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="footer__about footer__block">
+          <a href="#" class="logo logo_location_footer">
+            <img class="logo__img" src="./images/logo.png" alt="Логотип" />
+          </a>
+          <p class="footer__copyright footer__copyright_type_mobile">
+            Информация &copy; 2020 Университет ИТМО
+          </p>
+        </div>
+
+        <div class="footer__container">
+          <div class="footer__info">
+            <p class="footer__copyright">
+              Информация &copy; 2020 Университет ИТМО
+            </p>
+
+            <p class="footer__text">
+              Национальный центр когнитивных разработок – центр национальной
+              технологической инициативы (НТИ), получивший государственную
+              поддержку по направлению «Технологии машинного обучения и
+              когнитивные технологии». Инфраструктурная основа взаимодействия
+              научных, образовательных и промышленных организаций
+            </p>
+          </div>
+
+          <nav class="navigation footer__block">
+            <ul class="navigation__list">
+              <li class="navigation__title">О центре</li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">О нас</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Главная</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Команда</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Лаборатория</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Контакты</a>
+              </li>
+            </ul>
+            <ul class="navigation__list">
+              <li class="navigation__title">Развитие</li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Образование</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Аспирантура</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Магистратура</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Публикации</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Проекты</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="footer__contacts footer__block">
+            <p class="footer__contact footer__contact_name_city">
+              г.Санкт-Петербург
+            </p>
+            <p class="footer__contact">
+              199034, Санкт-Петербург,<br />
+              Биржевая линия, д. 4, лит. М, ауд. 302С
+            </p>
+            <p class="footer__contact">
+              +7 (812) 337-64-90<br />
+              +7 (812) 337-64-94
+            </p>
+            <p class="footer__contact">anna.lutsenko@itmo.ru</p>
+
+            <ul class="social">
+              <li class="social__item">
+                <a href="#" class="social__link">
+                  <img src="./images/footer-social-icons/vk-footer.svg" alt="Вконтакте" class="social__img" />
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__link">
+                  <img src="./images/footer-social-icons/facebook-footer.svg" alt="Фейсбук" class="social__img" />
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__link">
+                  <img src="./images/footer-social-icons/telegram-footer.svg" alt="Телеграм" class="social__img" />
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__link">
+                  <img src="./images/footer-social-icons/insta-footer.svg" alt="Инстаграм" class="social__img" />
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__link">
+                  <img src="./images/footer-social-icons/youtube-footer.svg" alt="Ютуб" class="social__img" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="footer__created">Сделано студентами Яндекс. Практикума</p>
+      </div>
+    </footer>
+
+
+    <div class="popup popup__lab popup_transition">
+      <div class="popup__content">
+        <button class="popup__close" type="button"></button>
+        <h2 class="popup__title">Анализ социальных данных</h2>
+        <img class="popup__img" src="./images/for pop up.png" alt="Несколько людей анализируют данные на компьютерах" />
+        <p class="popup__text popup__text_type_desktop">
+          Учебные лаборатории оснащены современным компьютерным оборудованием,
+          техническими средствами защиты информации, программными и
+          программно-аппаратными комплексами средств защиты, разработанными
+          ведущими производителями: Positive Technologies, Infotecs,
+          SearchInform, «Лаборатория ППШ» и других вендоров. Некоторые из
+          лабораторных установок являются уникальными по своим исследовательским
+          задачам.
+        </p>
+        <p class="popup__text popup__text_type_desktop-tablet">
+          Начиная с первого курса бакалавриата, студенты погружаются в область
+          их будущей профессиональной деятельности, активно развивают навыки
+          программирования, исследования защищенности информации в независимости
+          от формы ее представления, проектирования комплексных интегрированных
+          систем защиты информации, проходят различные виды практик.
+        </p>
+        <p class="popup__text popup__text_type_all">
+          В состав факультета входит ряд научных лабораторий и центров,
+          в которых проводятся исследования:
+        <ul class="popup__text-list">
+          <li class="popup__text-item">безопасные киберфизические
+            системы; разработка средств защиты информации;</li>
+          <li class="popup__text-item">функциональная безопасность беспилотных транспортных средств;</li>
+          <li class="popup__text-item">теория информации и кодирования; информационные процессы в
+            Интернет и безопасность виртуального пространства;</li>
+          <li class="popup__text-item">интеллектуальные защищенные системы мультиагентного взаимодействия и
+            пр.</li>
+        </ul>
+        </p>
+      </div>
     </div>
+  </div>
 
-    <script src="./scripts/swiper-bundle.min.js"></script>
-    <script src="./scripts/main.js"></script>
+
+<template id="publication-card">
+  <div class="publication-card">
+    <div class="publication-card__wrapper">
+      <div class="publication-card__img-wrapper">
+        <img class="publication-card__img"
+          src="./images/Publication/publication_Topic-driven Ensemble for Online Advertising Generation.png"
+          alt="foto" />
+      </div>
+      <div class="publication-card__content">
+        <h3 class="publication-card__header"></h3>
+        <p class="publication-card__authors"></p>
+        <p class="publication-card__text"></p>
+      </div>
+      <div class="publication-card__footer">
+        <a class="publication-card__link" href="#">
+          <p class="publication-card__footer-text">Читать полностью</p>
+          <img class="publication-card__icon-arrow" src="./images/icons/arrow.svg" alt="Стрелка" />
+        </a>
+        <img class="publication-card__icon-social" src="./images/icons/social-icon.svg" alt="Социальные сети" />
+      </div>
+    </div>
+    <ul class="publication-card__footer-social-options">
+      <li class="publication-card__footer-social-item">
+        <a class="publication-card__link" href="#">
+          <img class="publication-card__social-icon" src="./images/icons/vk-icon.svg" alt="Иконка ВК" />
+        </a>
+      </li>
+      <li class="publication-card__footer-social-item">
+        <a class="publication-card__link" href="#">
+          <img class="publication-card__social-icon" src="./images/icons/fb-icon.svg" alt="Иконка Фейсбука" />
+        </a>
+      </li>
+      <li class="publication-card__footer-social-item">
+        <a class="publication-card__link" href="#">
+          <img class="publication-card__social-icon" src="./images/icons/telegram-icon.svg" alt="Иконка Телеграма" />
+        </a>
+      </li>
+      <li class="publication-card__footer-social-item">
+        <a class="publication-card__link" href="#">
+          <img class="publication-card__social-icon" src="./images/icons/inst-icon.svg" alt="Иконка Инстаграмма" />
+        </a>
+      </li>
+      <li class="publication-card__footer-social-item">
+        <a class="publication-card__link" href="#">
+          <img class="publication-card__social-icon" src="./images/icons/you-tube-icon.svg" alt="Иконка Ютуба" />
+        </a>
+      </li>
+    </ul>
+  </div>
+</template>
+<script type="module" src="./scripts/index.js"></script>
+<script src="./scripts/menu.js"></script>
+<script src="./scripts/education.js"></script>
+<script src="./scripts/feedback.js"></script>
+<script src="./scripts/script.js"></script>
+<script src="./scripts/swiper-bundle.min.js"></script>
+<script src="./scripts/main.js"></script>
   </body>
 </html>
+

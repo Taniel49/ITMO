@@ -1,0 +1,36 @@
+.feedback__textarea {
+  min-height: 140px;
+  resize: none;
+  margin-bottom: 23px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  padding: 10px 11px;
+  border: none;
+}
+
+.feedback__textarea:focus{
+  border: 2px solid rgba(0, 19, 55, 1);
+}
+
+@media screen and (min-width: 710px) {
+  .feedback__textarea {
+    min-height: 123px;
+    border-radius: 10px;
+    width: 210px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .feedback__textarea {
+    min-height: 150px;
+    width: 350px;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,44 @@
+.popup__content {
+    width: 300px;
+    height: 444px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .popup__content {
+        width: 690px;
+        height: 454px;
+        padding: 20px;
+        display: grid;
+        grid-template-areas: 
+        "I T"
+        "I PH"
+        "I P"
+        "I L";
+        column-gap: 20px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .popup__content {
+        width: 1110px;
+        height: 718px;
+        padding: 20px;
+        display: grid;
+        grid-template-areas: 
+        "I T"
+        "I PD"
+        "I PH"
+        "I P"
+        "I L";
+        column-gap: 20px;
+    }
+}
